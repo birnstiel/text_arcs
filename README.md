@@ -20,10 +20,10 @@ pip install .
 
 ### Command Line
 
-After installation, you can use the `text-arc` command:
+After installation, you can use the `text_arc` command:
 
 ```bash
-text-arc output.svg "Hello World" --width 800 --arc_height 200 --text_size 50
+text_arc output.svg "Hello World" --width 800 --arc_height 200 --text_size 50
 ```
 
 #### Options
@@ -36,7 +36,8 @@ text-arc output.svg "Hello World" --width 800 --arc_height 200 --text_size 50
 - `--text_color`: Color of the text (default: "#111")
 - `--text_size`: Font size in px (default: 50)
 - `--font_weight`: Font weight (default: "300")
-- `--font_family`: Font family (default: "Gill Sans, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif")
+- `--font_family`: Font family (default: "Gill Sans, 'Gill Sans MT', Calibri,
+  'Trebuchet MS', sans-serif")
 
 ### Python API
 
